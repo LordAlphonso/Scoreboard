@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="title">HOME</h3>
+                <p class="display" id="home-score">0</p>
+                <div class="button-arrangement">
+                <button class="button-design" onclick="increaseScore1Home()"> +1</button>
+                <button class="button-design" onclick="increaseScore2Home()" >+2</button>
+                <button class="button-design" onclick="increaseScore3Home()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="title">GUEST</h3>
+                <p class="display" id="away-score"">0</p>
+                <div class="button-arrangement">
+                <button class="button-design" onclick="increaseScore1Away()">+1</button>
+                <button class="button-design" onclick="increaseScore2Away()">+2</button>
+                <button class="button-design" onclick="increaseScore3Away()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
