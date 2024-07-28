@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    padding: 120px 150px;
+    background: 10px black;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: red;
+    font-size: 50px;
+}
+
+
+.button-design{
+    background-color: #1B244A;
+    height: 90px;
+    width: 90px;
+    border-color: #9AABD8;
+    color:#9AABD8;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 800px;
+}
+.button-arrangement{
+    display: flex;
+    justify-content: space-around;
+}
